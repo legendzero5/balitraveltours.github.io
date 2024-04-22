@@ -1,0 +1,57 @@
+.home-two-banner-right-image img {
+	border-radius: 10%;
+}
+
+.video-container {
+	margin-bottom: 30px;
+	height: 331px;
+}
+
+.video-container.satu {
+	background: url(../images/2.jpg);
+}
+
+.video-container.dua {
+	background: url(../images/3.jpg);
+}
+.video-container.satu,
+.video-container.dua {
+	background-size: cover;
+	background-position: center;
+}
+
+.popular-ture-image img,
+.about-right-image img,
+.activities-image img {
+	object-fit: cover;
+	object-position: center;
+}
+.divider::after {
+	background: url(../images/bali.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.activities-image {
+	height: 300px;
+}
+
+footer.main__footer.p_relative {
+	background-color: azure;
+}
+
+.main-header .logo-box .logo {
+	padding: 0;
+}
+
+.logo img {
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+	height: 70px;
+	margin-top: -9px;
+}
+
+.sticky-header {
+	padding: 20px;
+}
